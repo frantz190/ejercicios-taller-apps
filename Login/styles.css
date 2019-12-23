@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    background: #E5E5E5;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    width: 1440px;
+    height: 1024px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    border: 2px solid #C3F1FF;
+}
+
+.formulario{
+    margin: auto;
+    width: 400px;
+    height: 330px;
+    background: #F2FCFF;
+    border: 2px solid #C3F1FF;
+    border-radius: 30px;
+    padding: 0% 0% 10% 0%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+main {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.caja-login {
+
+}
+
+.caja-login h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 9px;
+    color: #5AD2AE;
+    text-align: center;
+}
+
+.formulario {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 2px;
+}
+
+.formulario small {
+  text-align: center;
+}
+
+.formulario input {
+  height: 34px;
+}
+
+.formulario button {
+  height: 34px;
+  border-radius: 20px;
+}
+
+/* Efecto al pasar encima el mouse */
+.formulario button:hover {
+  cursor: pointer;
+  background: #469F85;
+  border-radius: 20px;
+}
+
+.formulario small {
+  color: white;
+}
+
+/* Color de texto de ayuda */
+.formulario input::placeholder {
+  color: #5AD2AE;
+  opacity: 1;
+  border-radius: 20px;
+}

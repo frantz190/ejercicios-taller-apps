@@ -1,0 +1,47 @@
+body{
+    margin: 0 auto;
+    border: 1.5px solid red;
+    position: absolute;
+}
+main{
+    display: block;
+}
+
+.cabecera-principal{
+    border:1px solid #bb07f7;
+    padding-bottom: 3%;
+    padding-top: 1%;
+    justify-content: center;
+}
+
+.seccion-principal{
+    border: 1px solid cyan;
+    display:grid;
+    grid-template-columns: 25% 75%;
+    grid-area: auto;
+}
+
+.seccion-principal aside{
+    border: 1px solid lime;
+    padding-bottom: 70%;
+    grid-area: auto;
+    padding-top: 1%;
+}
+
+.seccion-principal main{
+    border: 1px solid blue;
+}
+
+.seccion-principal header{
+    border: 1px solid orange;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+.seccion-principal section{
+    border: 1px solid violet;
+    padding-bottom: 30%;
+    grid-area: auto;
+}
+
+
